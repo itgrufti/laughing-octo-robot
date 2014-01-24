@@ -20,12 +20,8 @@ int main ( int argc, char *argv[] ) // Ich glaube, hier ist etwas falsch, ich ko
 	}
 	else if( option==666 )
 	{
-		char eins, zwei;
-		eins = argv[0];
-		zwei = argv[1];
 		printf("Normaler Start\n");
-		printf("%d\n", eins);
-		printf("%d\n", zwei);
+		printf("%s\n", argv");
 		return 0;
 	}
 }
@@ -54,5 +50,6 @@ int parseArg(char* commandArg)
 		return 2;
 	}
 	//Returning 666 if the option could not be found
+	printf()
 	return 666;
 }
